@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaruant Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+<header class="header">
+    <a href="^#" class="logo">
+        <img src="images/logo.png" alt="logo">
+    </a>    
+    <nav class="navbar">
+        <a href="#home" class="active">Anasayfa</a>
+        
+        <a href="#menu">Menu</a>
+        <a href="#products">Ürünlerimiz</a>
+        <a href="#review">Yorumlar</a>
+        <a href="#contact">İletişim</a>
+        
+
+        
+    </nav>
+    <div class="buttons">
+        <button id="search-btn">
+            <i class="fas fa-search "></i>
+            
+        </button> 
+        <button class="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <div class="search-form">
+        <input type="text" class="search-input" id="search-box" placeholder="ara">
+        <i class="fas fa-search"></i>
+    </div>
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-1.png" alt="menu">
+            <div class="content">
+                <h3>Sepet Ürünü 01</h3>
+                <div class="price">420₺</div>
+            </div>
+
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-2.png" alt="menu">
+            <div class="content">
+                <h3>Sepet Ürünü 02</h3>
+                <div class="price">160₺</div>
+            </div>
+
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-3.png" alt="menu">
+            <div class="content">
+                <h3>Sepet Ürünü 03</h3>
+                <div class="price">220₺</div>
+            </div>
+
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-4.png" alt="menu">
+            <div class="content">
+                <h3>Sepet Ürünü 04</h3>
+                <div class="price">240₺</div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">Ödeme Yap</a>
+    </div>
+
+
+</header>
+
+
+ <!-- home section -->
+<section class="home" id="home">
+   <div class="content">
+    <h3>Hızlı Teslimat</h3>
+
+    <p>Lezzetli ve kaliteli pizza deneyimlemeye hazır mısınız? <br>
+        deneylimli ekibimiz ve 40 yıllık tecrubelerimizle <br>  size lezzetin 
+        doruklarını yaşatmayı umuyoruz... 
+    </p>
+    <a href="^#" class="btn">Şimdi Sipariş Ver</a>
+   </div>
+</section>
+
+
+
+
+ <!--home section bitiş-->
+
+ <!--menu section baslangıc-->
+
+ <section class="menu" id="menu">
+    <h1 class="heading"><span>Menu</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-1.png" alt="menu">
+                <span class="menu-kategori">Karışık Pizza</span>
+                <h3>6 küçük boy pizza</h3>
+                <div class="price">420 ₺<span>500₺</span></div>
+    
+            </div>
+            <div class="box bottom"><a href="#" class="btn">Sepete Ekle</a>
+            </div>
+            
+        </div>
+        <div class="box">
+            <div class="box-head"> 
+                <img src="images/menu-2.png" alt="menu">
+                <span class="menu-kategori">Hamburger</span>
+                <h3>Hamburger</h3>
+                <div class="price">160₺<span>200₺</span></div>
+    
+            </div>
+            <div class="box bottom"><a href="#" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-3.png" alt="menu">
+                <span class="menu-kategori">Mantarlı Pizza</span>
+                <h3>Mantarlı Pizza</h3>
+                <div class="price">220 ₺<span>350 ₺</span></div>
+    
+            </div>
+            <div class="box bottom"><a href="#" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-4.png" alt="menu">
+                <span class="menu-kategori">Triple Burger</span>
+                <h3>3 Köfteli Burger</h3>
+                <div class="price">240₺ <span>190₺</span></div>
+    
+            </div>
+            <div class="box bottom"><a href="#" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+        </div>
+        
+        
+    
+        
+    </div>
+ </section>
+
+ <!--menu section bitiş-->
+
+ <!--ürünler başlangıç-->
+
+ <section class="products" id="products">
+    <h1 class="heading"><span>Ürünler</span></h1>
+    <div class="box-container">
+        <div class="box">
+
+            <div class="box-head">
+                <span class="title">Mini Burger</span>
+                <a href="#" class="name">Bacon Burger</a>
+            </div>
+            <div class="image">
+                <img src="images/product-1.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">240₺</b>
+                    <span class="amount">110 gr / 300 cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+
+            <div class="box-head">
+                <span class="title">Mini Burger</span>
+                <a href="#" class="name">Bacon Burger</a>
+            </div>
+            <div class="image">
+                <img src="images/product-2.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">240₺</b>
+                    <span class="amount">110 gr / 300 cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="box dark-bg">
+
+            <div class="box-head">
+                <span class="title">Mini Burger</span>
+                <a href="#" class="name">Bacon Burger</a>
+            </div>
+            <div class="image">
+                <img src="images/dark-product.jpg" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">240₺</b>
+                    <span class="amount">110 gr / 300 cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    
+
+ </section>
+
+ <!--ürünler bitiş-->
+
+<!--yorumlar başlangıç-->
+       
+   <section class="review" id="review">
+    <h1 class="heading"><span>Yorumlar</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/quote.png" alt="">
+            <p>çok lezzetliydi kesinlikle gitmelisiniz...</p>
+            <img src="images/eray.png" alt="" class="user">
+            <h3>Eray Pektaş</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/quote.png" alt="">
+            <p>Paket servisleri çok hızlı ve sıcak geliyor <br> hamburgerleri favorim ama pizzaları da harika...</p>
+            <img src="images/umut.png" alt="" class="user">
+            <h3>Umut Arıcı</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/quote.png" alt="">
+            <p>Her öğlen burdan yiyiyorum eskiden patatesleri <br>daha iyiydi sanki ama yine de baya iyiler</p>
+            <img src="images/altan.jpg" alt="" class="user">
+            <h3>Avukat A.Uğur Ekinci</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+   </section>
+<!--yorumlar bitiş-->
+
+
+<!--footer başlangıç-->
+<section class="footer" id="contact">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="search">
+        <button class="btn btn-primary">Search</button>
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook"> </a>
+        <a href="#" class="fab fa-twitter"> </a>
+        <a href="#" class="fab fa-instagram"> </a>
+        <a href="#" class="fab fa-linkedin"> </a>
+        <a href="#" class="fab fa-pinterest"> </a>
+    </div>
+    <div class="credit">
+        Created By <span>Baran Berk Baylav</span> | All Rights Reserved
+    </div>
+
+
+
+
+</section>
+
+
+
+<!--footer bitiş-->
+
+<script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
